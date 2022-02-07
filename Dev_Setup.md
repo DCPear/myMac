@@ -46,6 +46,7 @@ java -version
            brew analytics
  ```
  Analytics are disabled
+ https://formulae.brew.sh/formula/
 
  4. install java https://mkyong.com/java/how-to-install-java-on-mac-osx/
     ```
@@ -78,7 +79,10 @@ java -version
   brew install git
   git config --global user.email "yourGitHub@email.com"
   git config --global user.name "yourGitHubusername"
+  git config --global core.editor "nano"/git config --global core.editor emacs
   ```
+  https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
   7. How to see all drives on my Mac
 Activate the Finder app. Go to the Apple menu bar and click on Preferences. Click on the Sidebar tab. Under the Locations section, enable “Hard disks,” “External disks,” “CDs, DVDs, and iOS devices” in order to see all drives on Mac.
 
@@ -102,6 +106,17 @@ https://www.codegrepper.com/code-examples/whatever/brew+install+vscode
 brew install maven
 mvn -v
 ```
+https://mkyong.com/maven/install-maven-on-mac-osx/
 https://formulae.brew.sh/formula/maven
 https://www.appsdeveloperblog.com/how-to-install-maven-on-mac-os/
+
+10. 
+
+```
+brew install p7zip
+brew install --cask postman
+brew install --cask brackets
+brew install pwsafe (uninstalled - this is not free)
+brew install --cask dashlane ( instead)
+```
 
