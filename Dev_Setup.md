@@ -85,4 +85,23 @@ Activate the Finder app. Go to the Apple menu bar and click on Preferences. Clic
 If the sidebar does not appear in the left pane, enable it by pressing Option + Command + S keys while Finder is active.
 
 If you prefer to see all drives on the Desktop, enable the above options in Finder -> Preferences -> General tab.
-  
+
+8. visual studio code
+
+```
+brew install --cask visual-studio-code
+```
+
+https://formulae.brew.sh/cask/visual-studio-code
+https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
+https://sourabhbajaj.com/mac-setup/VisualStudioCode/
+https://www.codegrepper.com/code-examples/whatever/brew+install+vscode
+
+9. Maven
+```
+brew install maven
+mvn -v
+```
+https://formulae.brew.sh/formula/maven
+https://www.appsdeveloperblog.com/how-to-install-maven-on-mac-os/
+
