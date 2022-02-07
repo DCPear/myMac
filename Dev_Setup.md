@@ -17,6 +17,7 @@ Few useful commands to know:
   Open [FILE PATHWAY]
   ```
   Open a file using an application you specify:
+  ```
   Open -a “APP NAME” [FILE PATHWAY]
   ```
   Open a text-based file using the text editor:
@@ -35,6 +36,7 @@ java -version
  3. then copy the files to the appropriate location.
  or 
  1. instal homebrew https://phoenixnap.com/kb/install-homebrew-on-mac
+
  2. Disable the analytic data collection 
  ```
             brew analytics off
@@ -44,8 +46,9 @@ java -version
            brew analytics
  ```
  Analytics are disabled
+
  4. install java https://mkyong.com/java/how-to-install-java-on-mac-osx/
-    `` 
+    ```
     brew search java
     brew info java11
     brew instal java11
@@ -53,4 +56,33 @@ java -version
     Homebrew installed the JDK files and directories at /usr/local/Cellar/openjdk/, and symbolic link at /usr/local/opt/openjdk@11 points to  Java 11 version.
 
     also check this 
-    https://mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
+    https://mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/ </br>
+    https://www.macworld.co.uk/how-to/learn-set-up-java-programming-environment-in-os-x-3636924/
+
+5. Install Intellij idea community edition
+  ```
+    brew install --cask intellij-idea-ce
+  ```
+  issues/resolutuion
+
+  test idea
+  ```
+  terminal > jshell
+  exit jshell /exit
+  ```
+
+  6. Git 
+  if it was already installed 
+  ```
+  git --version 
+  brew install git
+  git config --global user.email "yourGitHub@email.com"
+  git config --global user.name "yourGitHubusername"
+  ```
+  7. How to see all drives on my Mac
+Activate the Finder app. Go to the Apple menu bar and click on Preferences. Click on the Sidebar tab. Under the Locations section, enable “Hard disks,” “External disks,” “CDs, DVDs, and iOS devices” in order to see all drives on Mac.
+
+If the sidebar does not appear in the left pane, enable it by pressing Option + Command + S keys while Finder is active.
+
+If you prefer to see all drives on the Desktop, enable the above options in Finder -> Preferences -> General tab.
+  
