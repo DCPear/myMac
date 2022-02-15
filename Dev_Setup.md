@@ -120,3 +120,4 @@ brew install pwsafe (uninstalled - this is not free)
 brew install --cask dashlane ( instead)
 ```
 
+11. https://www.edwardbeazer.com/turn-auto-complete-on-for-mac-terminal/
